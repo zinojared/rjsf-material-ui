@@ -38,11 +38,12 @@ const ObjectFieldTemplate = ({
           description={description}
         />
       )}
-      <Grid container={true} spacing={2} className={classes.root}>
+      <Grid container={true} className={classes.root}>
         {properties.map((element: any, index: number) => (
           <Grid
             item={true}
             xs={12}
+            sm={4}
             key={index}
             style={{ marginBottom: '10px' }}
           >
